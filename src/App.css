@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.buttons_to_click {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+button:not(:disabled) {
+    margin: 0 10px 0px 10px;
+}
+.clock {
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(130, 224, 170);
+    font-size: 55px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px;
+    box-sizing: border-box;
+    max-width: 700px;
+}
+.clock_value {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    font-size: 45px;
+}
+.display_clock {
+    display: flex;
+    justify-content: center;
+}
